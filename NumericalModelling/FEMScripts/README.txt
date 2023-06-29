@@ -1,3 +1,8 @@
+Dependencies
+------------
+
+Abaqus CAE (tested on Abaqus 2020 on Windows)
+
 Main script
 -----------
 
