@@ -147,7 +147,7 @@ class OdbFile:
                     problems = itData.numericalProblemSummary
                     stepEigs.append((inc+1, problems.numberOfNegativeEigenvalues))
                 if len(stepEigs) > 1:
-                    eigData.append(HistoryOutp(['NEGEIG',], 'Model', step.name, stepEigs))
+                    eigData.append(HistoryOutp('NEGEIG', 'Model', step.name, stepEigs))
         
         return eigData
 
